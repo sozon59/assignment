@@ -265,3 +265,39 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* early  */
+.main{
+    background-color: #f8f7f2;
+    padding: 60px 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 40px auto;
+}
+.main h2 {
+    color: #0d2a41; /* Dark navy color */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content {
+    color: #6a7c92; /* Grayish text color */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.button-acess {
+    background-color: #4e946f; /* Green color from image */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+/* Hover Effect (Add korle aro professional hobe) */
+.button-acess:hover {
+    background-color: #3d7a5a;
+}
